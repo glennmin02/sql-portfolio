@@ -14,6 +14,9 @@ However, this database does not invovle around:
 - maintenance spare parts in detail linked with the aicraft
 - call sign as it mostly does not requre for GA and Flight School aircraft. (All aircrafts here are assigned with thier US-registered tail number - N)
 
+## Application Tools,
+- SQLite3, PHP, VSCode
+
 ## Functional Requirements
 
 From the user perspective, he/she should be able to:
