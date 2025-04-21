@@ -20,3 +20,8 @@ This data is stored in a PostgreSQL database containing one table, `product_emis
 | `upstream_percent_total_pcf`         | `VARCHAR`   |
 | `operations_percent_total_pcf`       | `VARCHAR`   |
 | `downstream_percent_total_pcf`       | `VARCHAR`   |
+
+Using the product_emissions table, 
+- Find the number of unique companies and their total carbon footprint PCF for each industry group, filtering for the most recent year in the database.
+- The query should return three columns: industry_group, num_companies, and total_industry_footprint, with the last column being rounded to one decimal place.
+- The results should be sorted by total_industry_footprint from highest to lowest values.
