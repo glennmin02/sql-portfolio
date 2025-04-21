@@ -20,16 +20,11 @@ They have provided you with access to their database, which contains the followi
 | `payment` | `VARCHAR` | Payment method&mdash;`Credit card`, `Transfer`, or `Cash`. |
 | `payment_fee` | `FLOAT` | Percentage of `total` charged as a result of the `payment` method. |
 
+Find out how much Wholesale net revenue each product_line generated per month per warehouse in the dataset.
 
-Your query output should be presented in the following format:
-
-| `product_line` | `month` | `warehouse` |	`net_revenue` |
-|----------------|-----------|----------------------------|--------------|
-| product_one | --- | --- | --- |
-| product_one | --- | --- | --- |
-| product_one | --- | --- | --- |
-| product_one | --- | --- | --- |
-| product_one | --- | --- | --- |
-| product_one | --- | --- | --- |
-| product_two | --- | --- | --- |
-| ... | ... | ... | ... |
+- The query should be saved as revenue_by_product_line using the SQL cell provided, and contain the following:
+  - product_line,
+  - month: displayed as 'June', 'July', and 'August',
+  - warehouse, and
+  - net_revenue: the sum of total minus the sum of payment_fee.
+- The results should be sorted by product_line and month, followed by net_revenue in descending order.
